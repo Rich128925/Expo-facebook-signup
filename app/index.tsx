@@ -127,7 +127,7 @@ function LoginScreen({ onNavigate }: { onNavigate: (s: Screen) => void }): React
         {/* Top Bar */}
         <View style={login.topBar}>
           <TouchableOpacity style={login.backButton} activeOpacity={0.7}>
-            <Text style={login.backArrow}>←</Text>
+            <Text style={login.backArrow}></Text>
           </TouchableOpacity>
           <TouchableOpacity activeOpacity={0.7}>
             <Text style={login.langText}>English (US) ▾</Text>
